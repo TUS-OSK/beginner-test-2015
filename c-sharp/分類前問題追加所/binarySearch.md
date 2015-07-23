@@ -20,6 +20,7 @@ class MMDMotionFrame
 さて、この入力から、tの時点でのpositionを算出したい。
 もし、tの時点でのデータが配列に存在しない場合は、そのtの時点を挟む最も近接する2つのデータから線形補完しpositionを算出する。
 ### 例
+```csharp
 Motion = {
   new MMDMotionFrame()
   {
@@ -37,6 +38,7 @@ Motion = {
      position=new []{303,72,12123}
   }
 };
+```
 この時、入力に対する出力の値は以下の通りである。
 * t=2のとき  (2,4,6)
 * t=1のとき (1,2,3)
