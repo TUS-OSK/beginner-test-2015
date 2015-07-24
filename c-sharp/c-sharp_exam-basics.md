@@ -56,7 +56,7 @@
   1. 引数で渡された整数値の回数だけ、I am a member of OSK. と表示されるメソッドをProgramクラス内に定義せよ。  
   解答は以下の中身を埋める形で答えよ。
   ```csharp
-  void PrintOskConsciousness(int n)
+  static void PrintOskConsciousness(int n)
   {
         //ここを埋める
   }
