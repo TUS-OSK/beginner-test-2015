@@ -33,6 +33,13 @@
   1. 演算子 ! は何を意味するか。
   1. 整数型変数 a と b を宣言し、それぞれ 3 と 2 で初期化する。
   a と b の商を、キャストを用いて、計算結果が数学的に正しくなるようなコードを書け。
+
+  1. 次の実行結果を答えよ。
+  
+```csharp
+　int i=1;
+　Console.WriteLine(("" is string ? (object)new { } as System.Collections.IEnumerable : "Hello") ?? (i < 0 || (i = (++i) * 3) > 0 || (i = (++i) / 3) > 0 ? "Hello" + i : i + "Hello"));
+```
 　
 ## 問3 -制御構文-
   1. 整数型変数 x を宣言し、適当な値で初期化する。  
