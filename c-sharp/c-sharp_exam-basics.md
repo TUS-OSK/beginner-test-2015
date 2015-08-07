@@ -35,7 +35,7 @@
   a と b の商を、キャストを用いて、計算結果が数学的に正しくなるようなコードを書け。
 
   1. 次の実行結果を答えよ。
-  
+
 ```csharp
 　int i=1;
 　Console.WriteLine(("" is string ? (object)new { } as System.Collections.IEnumerable : "Hello") ?? (i < 0 || (i = (++i) * 3) > 0 || (i = (++i) / 3) > 0 ? "Hello" + i : i + "Hello"));
@@ -94,3 +94,14 @@
   1. Playerクラスのメソッドとして、hpの値を変更するメソッドSetHpを定義せよ。
   1. これまでの問で定義したPlayerクラスを、Programクラス内のMain関数で実際に使用する。  
   インスタンス化しHPに100をセットし、コンソールにHPを表示せよ。
+  1. 例えばPlayerクラスで考えると、以下のようなメソッドを定義することができる。
+  ```csharp
+  class Player
+  {
+      Player()
+      {
+        //メソッドの中身
+      }
+  }
+  ```
+このような、クラス名と同じ名前のメソッドを特になんというか。
