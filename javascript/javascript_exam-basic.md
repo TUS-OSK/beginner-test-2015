@@ -160,7 +160,7 @@
 
     var a = fraction(1, 2);
     var b = fraction(3, 4);
-    console.log(a.minus(b));    // 表示されるものを答えよ
+    printFraction(a.minus(b));    // 表示されるものを答えよ
   ```
   
   1. 上のコードに、* や / 、約分を行うメソッドを追加せよ
