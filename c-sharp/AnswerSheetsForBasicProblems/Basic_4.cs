@@ -36,7 +36,7 @@ namespace Basic_4
 
         static void Main(string[] args)
         {
-          //上で書いたコードを試したいときはここに書けばよい
+          //上で書いたコードを試したいときはここに書いて実行する
         }
     }
 }
