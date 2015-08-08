@@ -94,7 +94,7 @@ double func(double x,double y)
 ```
 
 ## 問3 イベント
-* イベントは複数のデリゲートを一つのデリゲートとして扱う文法です。以下のようにデリゲート型を用いて定義します。**イベントが呼び出されたとき、登録された全てのデリゲートが参照するメソッドが呼び出されます**。
+* イベントは複数のデリゲートを一つのデリゲートのように扱う文法です。以下のようにデリゲート型を用いて定義します。**イベントが呼び出されたとき、登録された全てのデリゲートが参照するメソッドが呼び出されます**。
 ```csharp
 public delegate void SampleEventHandler(object sender, EventArgs e);
 public event SampleEventHandler sampleEvent;
