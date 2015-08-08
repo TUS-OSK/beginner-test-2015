@@ -92,6 +92,13 @@ double func(double x,double y)
 ```csharp
 (インスタンス名).CalculateFunc = func;
 ```
+* **問2.3 以下を埋め、matrixXとmatrixYの各要素をfuncによって結合した二次元配列を返すメソッドを完成せよ。**
+```csharp
+double[][] MatrixCalculation(double[][] matrixX,double[][] matrixY,DoubleFunc func)
+{
+      /* 問2.3 matrixXとmatrixYの各要素をfuncによって結合した二次元配列を返す。*/ 
+}
+```
 
 ## 問3 イベント
 * イベントは複数のデリゲートを一つのデリゲートのように扱う文法です。以下のようにデリゲート型を用いて定義します。**イベントが呼び出されたとき、登録された全てのデリゲートが参照するメソッドが呼び出されます**。
