@@ -57,4 +57,9 @@ visual studioで言えば、ソリューションでいくつかのプロジェ�
 1. ![HTTPS clone URLと書いてあるところのURLをコピーする](https://qiita-image-store.s3.amazonaws.com/0/7942/967aa882-e9b9-2067-cdf9-f15c24f85115.png)　ここをクリックしてコピーする
 1. SourceTree上で左上にある 新規/クローンを作成する を押す
 1. ↑で開いた画面にの 元のパス/URL にさっきのURLをコピーします
-1. すぐ下の保存先のパスの空欄の部分を押します。すると勝手に保存先のパスが入力されます。 ![](http://www.norit.jp/app-def/S-102/wp/wp-content/uploads/2014/04/blog20140418nemoto09.jpg)
+1. すぐ下の保存先のパスの空欄の部分を押します。すると勝手に保存先のパスが入力されます。
+1. クローンを押します。
+ ![](http://www.norit.jp/app-def/S-102/wp/wp-content/uploads/2014/04/blog20140418nemoto09.jpg)
+
+## 解答方法
+### 問題構成
