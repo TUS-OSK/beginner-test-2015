@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace Basic_5
 {
-    //(1)(2)(3)については以下にクラスPlayerを定義し、その中に答えよ。
+    //(1)(2)(3)についてはPlayer.csにかくこと。
 
-
-    static void Main(string[] args)
+    class Program
     {
-      //(4)
+        static void Main(string[] args)
+        {
+          //(4)
 
 
-      //(5)
-      /*
-      *(ここに書く)
-      */
-
+          //(5)
+          /*
+          *(ここに書く)
+          */
+        }
     }
 }
