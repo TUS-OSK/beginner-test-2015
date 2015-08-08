@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Basic_4
 {
-    //(1)(2)(3)については以下にクラスPlayerを定義し、その中に答えよ。
+  class Player
+  {
+    //(1)
+
+
+    //(2)
+
+
+    //(3)
 
 
     static void Main(string[] args)
