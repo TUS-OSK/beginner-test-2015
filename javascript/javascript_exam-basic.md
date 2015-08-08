@@ -1,7 +1,7 @@
 # Questions
 ## 問1 - 型と変数と演算子 -
 
-  * 次の実行結果を答えよ：
+  * 次の実行結果を理由をつけて答えよ：
   
   ```javascript
     console.log('hello' + " world"); // (i)
@@ -23,7 +23,7 @@
   ```
 
 ## 問2 - 配列とfunction式 -
-  * 次の実行結果を答えよ：
+  * 次の実行結果を理由をつけて答えよ：
 
   ```javascript
     var ary = [ 1,4,2,1,6,8,4 ];
@@ -120,28 +120,28 @@
     関数名:printSubtraction
     引数:num1,num2
     返り値:無し
-    説明:num1とnum2の引き算した値を表示するメソッド
+    説明:num1とnum2の引き算した値を表示する関数
 
   1. 以下を仕様とする関数を作りなさい
     仕様▼
     関数名:nthTableOfMultiplication
     引数:整数n (表示させる段の番号)
     返り値:配列table
-    説明:掛け算の表のうち、n段目のものを配列で返すメソッド
+    説明:掛け算の表のうち、n段目のものを配列で返す関数
 
   1. 以下を仕様とする関数を作りなさい
     仕様▼
     関数名:f
     引数:実数x
     返り値:実数fx
-    説明:fx = x1.x*x - 3xとし、計算してfxを返すメソッド
+    説明:fx = x*x*x - 3xとし、計算してfxを返す関数
 
   1. 以下を仕様とする関数を作りなさい
     仕様▼
     関数名:isEven
     引数:整数num
     返り値:true/false
-    説明:numが偶数かを判定し、偶数ならtrueを、奇数ならfalseを返すメソッド
+    説明:numが偶数かを判定し、偶数ならtrueを、奇数ならfalseを返す関数
     
 ## 問5 - オブジェクト -
   1. 
@@ -152,7 +152,7 @@
             child: child,
             mother: mother,
             plus: function (other) { return fraction(other.child*this.mother + this.child*other.mother, this.mother*other.mother); },
-            minus: function (other) { return this.plus(other.flipSign())},
+            minus: function (other) { return this.plus(other.flipSign()); },
             flipSign: function () { return fraction(-child, mother); }
         };
     }
@@ -182,13 +182,13 @@
     
     ```
       全て見えてるとき：
-      2 1  12 5 5 10 8 6
-      9 10 11 4 1 2  6 3
-      3 9  12 7 8 4  7 11
+      2  1  12 5  5  10 8  6
+      9  10 11 4  1  2  6  3
+      3  9  12 7  8  4  7  11
       
       全て隠しているとき：
-      * * * * * * *
-      * * * * * * *
-      * * * * * * *
+      *  *  *  *  *  *  *  *
+      *  *  *  *  *  *  *  *
+      *  *  *  *  *  *  *  *
     ```
     1. 最終的に自分のカードが多い者の勝利とする
