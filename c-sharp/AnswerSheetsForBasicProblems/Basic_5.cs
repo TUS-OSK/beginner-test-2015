@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Basic_4
+namespace Basic_5
 {
     //(1)(2)(3)については以下にクラスPlayerを定義し、その中に答えよ。
 
@@ -20,5 +20,4 @@ namespace Basic_4
       */
 
     }
-  }
 }
