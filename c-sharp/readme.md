@@ -62,4 +62,29 @@ visual studioで言えば、ソリューションでいくつかのプロジェ�
  ![](http://www.norit.jp/app-def/S-102/wp/wp-content/uploads/2014/04/blog20140418nemoto09.jpg)
 
 ## 解答方法
-### 問題構成
+
+### 問題用紙ファイルの構成
+1. c-sharp_exam-basics.md  
+基本問題。まずはこれをやる。
+1. c-sharp_exam-advanced.md  
+発展問題。基本問題がすべて解き終わったらやる。
+
+### 問題用紙ファイルの構成
+1. AnswerSheetsForBasicProblems
+    * Basic_1.cs
+    * Basic_2.cs
+    * Basic_3.cs
+    * Basic_4.cs
+    * Basic_5.cs
+    * Basic_6.cs
+    * Player.cs  
+1. AnswerSheetsForAdvancedProblems
+    * Advanced_1.cs
+    * Advanced_2.cs
+    * Advanced_3.cs
+    * Advanced_4.cs
+    * Advanced_5.cs
+
+基本問題と発展問題はそれぞれ大問6個と大問5個の構成になっている。  
+それぞれの番号と同じファイルに解答する。   
+なお、基本問題の解答用紙におけるPlaeyr.csは問題文をよく読み使用すること。
