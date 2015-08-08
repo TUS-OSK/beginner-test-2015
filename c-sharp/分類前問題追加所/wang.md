@@ -60,6 +60,7 @@
 ```csharp
 public delegate double DoubleFunc(double x, double y);
 ```
+* ちなみに、デリゲート型は.NET Frameworkのクラス・ライブラリのAction型やFunc型でほとんど代用できるので、気になる人は調べてみてください。
 *  以下のようなCalculaterクラスがあり、メンバーが計算機と同期しているとします。計算機はNumberXとNumberYに値を代入し、ボタンが押されるとCalculateメソッド呼ぶようになっています。そして計算結果であるAnswerが計算機の画面に反映されるという仕組みです。
 *  **問2.1 Calculateメソッド実装せよ。**
 ```csharp
@@ -67,7 +68,7 @@ public delegate double DoubleFunc(double x, double y);
     {
         public void Calculate()
         {
-	       /* 問2.1 CalculateFuncを用いてAnswerに値を代入 */         
+           /* 問2.1 CalculateFuncを用いてAnswerに値を代入 */         
         }
         public DoubleFunc CalculateFunc;
         public double NumberX { get; set; }
@@ -85,9 +86,34 @@ public delegate double DoubleFunc(double x, double y);
 ```csharp
 double func(double x,double y)
 {
-	  /* 問2.2 足し算 */ 
+      /* 問2.2 足し算 */ 
 }
 ```
 ```csharp
 (インスタンス名).CalculateFunc = func;
+```
+
+## 問3 イベント
+* イベントは複数のデリゲートを一つのデリゲートのように扱う文法です。以下のようにデリゲート型を用いて定義します。**イベントが呼び出されたとき、登録された全てのデリゲートが参照するメソッドが呼び出されます**。
+```csharp
+public delegate void SampleEventHandler(object sender, EventArgs e);
+public event SampleEventHandler sampleEvent;
+```
+* あるイベントが起きたとき、例えばアプリケーションを起動したときなどがイメージしやすいですが、いろんなクラスのメソッドを同時に呼び出さなくてはいけません。しかし、開発段階では呼ばなくてはいけないメソッドを全て特定することは難しいです。そこで、管理クラスに起動イベントを持たせておくのです。そうすれば、のちに起動時に呼ばなくてはいけないメソッドが出来たときに、起動イベントに登録するだけでよくなるわけです。
+```csharp
+/* イベントの登録 1*/
+SampleEvent += new SampleEventHandler((sender, e) => { Console.WriteLine( sender.ToString() + "called 1\n"); });
+/* イベントの登録 2*/
+sampleEvent += (sender,e) => { Console.WriteLine( sender.ToString() + "called 2\n");};
+/* イベントの登録 ３*/
+public void func(object sender, EventArgs e)
+{
+    Console.WriteLine( sender.ToString() + "called 3\n");
+}
+sampleEvent += func;
+```
+* **問3.1 上記のようにイベントを登録し、下記のようにイベントを呼び出した。この時のコンソール出力を答えよ。**
+```csharp
+/*問3.1 イベントの呼び出し */
+sampleEvent( "target", EventArgs.Empty );
 ```
