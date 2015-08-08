@@ -17,6 +17,7 @@
     console.log(x == 0 && false); // (ix)
     console.log(x == y);          // (x)
     console.log(x = y = 8);       // (xi)
+    x = 0;
     console.log(1 < x < 9);       // (xii)
     console.log(z);               // (xiii)
   ```
