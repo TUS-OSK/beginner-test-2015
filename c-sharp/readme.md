@@ -4,7 +4,7 @@
 基本問題と発展問題に分かれていますが、基本問題が全部解けるようになれば、初心者としてはまず一歩を踏み出せているかな、という感じです。  
 もちろん、プログラミング部としては基本問題だけでは悲しいですが、千里の道も一歩からです。  
 問題の解答には、「SourceTree」と「Github」を使います。  
-前期の講習では、ちゃんと教えられなかったので、これらの使い方を解説しながら、解答方法を説明します。
+前期の講習では、ちゃんと教えられなかったので、これらの使い方を解説しながら、解答方法を説明します。  
 この解説を読めば、問題解答以外の部分に余計な労力を使わなくて済むよう頑張って書くので、長くなるとは思いますがぜひ読んでください。
 
 以下3点にわたって説明します。
@@ -12,6 +12,9 @@
 1. 問題の入手方法
 1. 解答方法
 1. 解答の提出方法
+
+また、これ以降の説明は、Githubの **TUS-OSK** グループ(organization)に入っていること前提で進みます。  
+まだ入っていない人は、Slackで教えてください。
 
 ## 問題の入手方法
 ### Gitって何？
@@ -130,30 +133,47 @@ Githubのサーバーにもこのレポジトリをそのままアップロー�
 ## 解答方法
 
 ### 問題用紙ファイルの構成
-1. c-sharp_exam-basics.md  
-基本問題。まずはこれをやる。
-1. c-sharp_exam-advanced.md  
-発展問題。基本問題がすべて解き終わったらやる。
 
-### 問題用紙ファイルの構成
-1. AnswerSheetsForBasicProblems
-    * Basic_1.cs
-    * Basic_2.cs
-    * Basic_3.cs
-    * Basic_4.cs
-    * Basic_5.cs
-    * Basic_6.cs
-    * Player.cs  
-1. AnswerSheetsForAdvancedProblems
-    * Advanced_1.cs
-    * Advanced_2.cs
-    * Advanced_3.cs
-    * Advanced_4.cs
-    * Advanced_5.cs
+##### 基本問題
+1. c-sharp_exam-basics.md
 
-基本問題と発展問題はそれぞれ大問6個と大問5個の構成になっている。  
-それぞれの番号と同じファイルに解答する。  
-なお、基本問題の解答用紙におけるPlaeyr.csは問題文をよく読み使用すること。
+まずはこれをやる。
+
+##### 発展問題
+1. c-sharp_exam-advanced_1.md
+1. c-sharp_exam-advanced_2.md
+1. c-sharp_exam-advanced_3.md
+1. c-sharp_exam-advanced_4.md
+1. c-sharp_exam-advanced_5.md
+1. c-sharp_exam-advanced_6.md
+
+基本問題がすべて解き終わったらやる。  
+ファイル番号はおそらく難易度順になっている。
+
+### 解答用紙ファイルの構成
+
+##### 基本問題
+* AnswerSheetsForBasicProblemsフォルダ
+    1. Basic_1.cs
+    1. Basic_2.cs
+    1. Basic_3.cs
+    1. Basic_4.cs
+    1. Basic_5.cs
+    1. Basic_6.cs
+    1. Player.cs
+
+基本問題は大問6個構成になっています。  
+それぞれの番号と同じファイルに解答してください。  
+基本問題の解答用紙におけるPlaeyr.csは問題文をよく読み使用すること。
+
+##### 発展問題
+* AnswerSheetsForAdvancedProblemsフォルダ
+
+発展問題は解答形式は問いません。  
+ですが見る側ができるだけわかりやすいように書いて下さい。
+１つの問題ファイルに対して解凍ファイルも１つにして下さい。  
+ファイル名は、 **問題ファイルの番号.cs** として、  
+提出の際は、AnswerSheetsForAdvancedProblemsフォルダ入れて下さい。
 
 ### ブランチを切る
 解答を始める前に、ちょっとだけSourceTree上で作業を行わなければいけません。  
