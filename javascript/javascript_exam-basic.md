@@ -30,7 +30,7 @@
     var ary = [ 1,4,2,1,6,8,4 ];  
     console.log(ary[3]);         // (i)  
     console.log(ary.length);     // (ii)  
-    ary[7] = 789;  
+    ary[71] = 789;  
     console.log(ary.length);     // (iii)  
 
     function add7(num) {  
