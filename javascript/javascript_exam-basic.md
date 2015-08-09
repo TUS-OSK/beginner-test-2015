@@ -154,7 +154,7 @@
 
   1. 
 
-  ```  
+  ```javascript  
     function fraction(child, mother) {  
         // ①  
         return {  
