@@ -13,10 +13,12 @@ namespace Basic_5
         static void Main(string[] args)
         {
           //(4)
+            Player player = new Player();
+            player.SetHp(100);
+            Console.WriteLine(plery.GetHp());
 
-
-          //(5)
-          /*
+            //(5)
+            /*
           *(ここに書く)
           */
         }

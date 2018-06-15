@@ -1,0 +1,6 @@
+C:\Users\ryoichi\Documents\beginner-test-2015\c-sharp\AnswerSheetsForAdvancedProblems\AnswersForAdvancedProblems\AnswersForAdvancedProblems\bin\Debug\AnswersForAdvancedProblems.exe.config
+C:\Users\ryoichi\Documents\beginner-test-2015\c-sharp\AnswerSheetsForAdvancedProblems\AnswersForAdvancedProblems\AnswersForAdvancedProblems\bin\Debug\AnswersForAdvancedProblems.exe
+C:\Users\ryoichi\Documents\beginner-test-2015\c-sharp\AnswerSheetsForAdvancedProblems\AnswersForAdvancedProblems\AnswersForAdvancedProblems\bin\Debug\AnswersForAdvancedProblems.pdb
+C:\Users\ryoichi\Documents\beginner-test-2015\c-sharp\AnswerSheetsForAdvancedProblems\AnswersForAdvancedProblems\AnswersForAdvancedProblems\obj\Debug\AnswersForAdvancedProblems.csprojResolveAssemblyReference.cache
+C:\Users\ryoichi\Documents\beginner-test-2015\c-sharp\AnswerSheetsForAdvancedProblems\AnswersForAdvancedProblems\AnswersForAdvancedProblems\obj\Debug\AnswersForAdvancedProblems.exe
+C:\Users\ryoichi\Documents\beginner-test-2015\c-sharp\AnswerSheetsForAdvancedProblems\AnswersForAdvancedProblems\AnswersForAdvancedProblems\obj\Debug\AnswersForAdvancedProblems.pdb
